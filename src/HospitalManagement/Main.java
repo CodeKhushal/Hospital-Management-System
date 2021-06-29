@@ -56,15 +56,17 @@ public class Main {
                     break;
                 }
                 case 3 : {
-                    System.out.print("NAME, QUALIFICATIONS, EXPERIENCE, SALARY:   ");
+                    System.out.println("NAME, QUALIFICATIONS, EXPERIENCE, SALARY:   ");
                     for (int k = 0; k < dr.size(); k++) {
+                        System.out.print(k+1+".");
                         System.out.println(dr.get(k));
                     }
                     break;
                 }
                 case 4 : {
-                    System.out.print("NAME, AGE, ILLNESS, BLOOD GROUP:    ");
+                    System.out.println("NAME, AGE, ILLNESS, BLOOD GROUP:    ");
                     for (int k = 0; k < pt.size(); k++) {
+                        System.out.print(k+1+".");
                         System.out.println(pt.get(k));
                     }
                     break;
